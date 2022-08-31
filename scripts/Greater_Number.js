@@ -25,11 +25,7 @@ function compare(num1,num2){
         
     }
     appendResults(compareResult,"greater_number_result");
-    /*appendResults1(compareResult);*/
+    
 }
 
-function appendResults1(result){
-    let pNode = document.getElementById("greater_number_result");
-    pNode.textContent=result;
 
-}

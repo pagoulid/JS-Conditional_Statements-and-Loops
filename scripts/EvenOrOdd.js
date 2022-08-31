@@ -1,11 +1,14 @@
-import {appendResults} from 'https://pagoulid.github.io/JS-Conditional_Statements-and-Loops/scripts/modules/modules.js';
+import {appendResults,switchCase} from 'https://pagoulid.github.io/JS-Conditional_Statements-and-Loops/scripts/modules/modules.js';
 document.getElementById('EOButton').addEventListener('click',evenOrOdd);
 function evenOrOdd(){
     let NumVal=document.getElementById('Num').value;
-    switchCase(NumVal);
+    let condition = NumVal%2==0?1:0;
+    let result=switchCase(condition,`${NumVal} is odd number.`,`${NumVal} is even number.`);
+    appendResults(result,"even_or_odd_number_result");
+
 }
 
-function switchCase(num){
+/*function switchCase(num){
     let condition = num%2==0?1:0;
     let result;
 
@@ -18,13 +21,8 @@ function switchCase(num){
             break;
     }
     appendResults(result,"even_or_odd_number_result");
-    /*appendResults2(result)*/
+    
 
     
-}
+}*/
 
-function appendResults2(result){
-    let pNode1 = document.getElementById("even_or_odd_number_result");
-    pNode1.textContent=result;
-
-}
