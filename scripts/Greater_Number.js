@@ -24,7 +24,7 @@ function compare(num1,num2){
 
         
     }
-    appendResults(result,"greater_number_result");
+    appendResults(compareResult,"greater_number_result");
     /*appendResults1(compareResult);*/
 }
 
