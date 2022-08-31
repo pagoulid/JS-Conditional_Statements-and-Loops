@@ -10,31 +10,61 @@
     </head>
     <body>
         
-            <div class="greater-number-block">
-                <input type="number"  name="first" id="firstNum"  />
-                <input type="number" name="second" id="secNum"  />
-
-                
-                <!--IDEA: maybe store old results-->
-                <div class="result-1-block">
-                    <p id="greater_number_result"></p>
+            <div class="main-block">
+                <h1>Conditional Statements</h1>
+                <div class="block-content">
+                    <div class="field greater-number-field">
+                        <h2>Which number is greater?</h2>
+                        <div class="field-content">
+    
+                            <div class="container input-container">
+                                <p>Insert First Number:</p>
+                                <div class="height-container">
+                                    <input type="number"  name="first" id="firstNum"  />
+                                </div>
+                                
+                            </div>
+                            <div class="container input-container">
+                                <p>Insert Second Number:</p>
+                                <div class="height-container">
+                                    <input type="number" name="second" id="secNum"  />
+                                </div>
+                                
+                            </div>
+                            <div class="container output-container">
+                                <p>Output:</p>
+                                <p id="greater_number_result"></p>
+                            </div>
+                            
+                            
+                            <button  class="button" onclick="greaterNum()">Enter</button>
+                        </div>
+                    </div>
+                    <div class="field even-or-odd-field">
+                        <h2>Even or Odd?</h2>
+                        <div class="field-content">
+                            <div class="container input-container">
+                                <p>Insert Number:</p>
+                                <div class="height-container">
+                                    <input type="number"  name="number" id="Num"  />
+                                </div>
+                            </div>
+                            <div class="container output-container">
+                                <p>Output:</p>
+                                <p id="even_or_odd_number_result"></p>
+                            </div>
+                            
+                            <button class="button" onclick="evenOrOdd()">Enter</button>
+                            
+    
+                        </div>
+                        
+                    </div>
 
                 </div>
-                <button  class="button" onclick="greaterNum()">Enter</button>
-                
-
+               
             </div>
             
-            <div class="even-or-odd-block">
-                <input type="number"  name="number" id="Num"  />
-                
-                <div class="result-2-block">
-                    <p id="even_or_odd_number_result"></p>
-                </div>
-                <button class="button" onclick="evenOrOdd()">Enter</button>
-                
-
-            </div>
             
                 
             
