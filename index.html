@@ -4,34 +4,46 @@
         <meta charset="utf-8">
         <title>Conditional Statements and Loops</title>
         <link rel="stylesheet" href="style.css">
-       <!-- <script>
-            function doSomething(Form){
-                let val=document.getElementById('idexample').value;
-    
 
-    let res = document.getElementById('result');
-    res.textContent=val;
-
-    
-}
-        </script>-->
         
        
     </head>
     <body>
         
-            
+            <div class="greater-number-block">
                 <input type="number"  name="first" id="firstNum"  />
                 <input type="number" name="second" id="secNum"  />
 
-                <button  onclick="greaterNum()">Enter</button>
+                
+                <!--IDEA: maybe store old results-->
+                <div class="result-1-block">
+                    <p id="greater_number_result"></p>
 
-                <p id="greater_number_result"></p>
+                </div>
+                <button  class="button" onclick="greaterNum()">Enter</button>
+                
+
+            </div>
+            
+            <div class="even-or-odd-block">
+                <input type="number"  name="number" id="Num"  />
+                
+                <div class="result-2-block">
+                    <p id="even_or_odd_number_result"></p>
+                </div>
+                <button class="button" onclick="evenOrOdd()">Enter</button>
+                
+
+            </div>
+            
+                
             
            
             
             
             <script  src="./Greater_Number.js"></script>
+            <script  src="./EvenOrOdd.js"></script>
+            <!--<script  src="./StopSiblingProp.js"></script>-->
     </body>
     
 </html>

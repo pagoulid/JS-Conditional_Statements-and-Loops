@@ -26,10 +26,10 @@ function compare(num1,num2){
         
     }
 
-    appendResults(compareResult);
+    appendResults1(compareResult);
 }
 
-function appendResults(result){
+function appendResults1(result){
     let pNode = document.getElementById("greater_number_result");
     pNode.textContent=result;
 
