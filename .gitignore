@@ -1,0 +1,7 @@
+#ignore node server files(neeed for testing purposes)
+node_modules
+
+package.json
+package-lock.json
+
+index.js
