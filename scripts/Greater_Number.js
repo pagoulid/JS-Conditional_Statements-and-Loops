@@ -4,12 +4,16 @@ function greaterNum(){
     let fNumVal=document.getElementById('firstNum').value;
     let sNumVal=document.getElementById('secNum').value;
 
-    compare(fNumVal,sNumVal);
+    /*compare(fNumVal,sNumVal);*/
+    let condition = fNumVal>sNumVal?1:0;
+    let result=switchCase(condition,`${sNumVal} is greater than ${fNumVal}`,`${fNumVal} is greater than ${sNumVal}`);
+    appendResults(result,"greater_number_result");
     
 
 
 }
 
+/*
 function compare(num1,num2){
     let condition =num1>num2?1:0;
     let compareResult;
@@ -27,5 +31,5 @@ function compare(num1,num2){
     appendResults(compareResult,"greater_number_result");
     
 }
-
+*/
 
