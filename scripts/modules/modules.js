@@ -4,7 +4,7 @@ export function appendResults(result,id){
 
 }
 
-export function switchCase(condition,case2,case1){
+export function switchCase(condition,case1,case2){
 
     switch(condition){
         case 0:
