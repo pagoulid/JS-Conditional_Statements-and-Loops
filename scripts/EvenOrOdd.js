@@ -1,5 +1,5 @@
 import {appendResults} from 'https://pagoulid.github.io/JS-Conditional_Statements-and-Loops/scripts/modules/modules.js';
-function evenOrOdd(){
+export function evenOrOdd(){
     let NumVal=document.getElementById('Num').value;
     switchCase(NumVal);
 }

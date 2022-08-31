@@ -1,5 +1,5 @@
 import {appendResults} from 'https://pagoulid.github.io/JS-Conditional_Statements-and-Loops/scripts/modules/modules.js';
-function greaterNum(){
+export function greaterNum(){
     let fNumVal=document.getElementById('firstNum').value;
     let sNumVal=document.getElementById('secNum').value;
 
