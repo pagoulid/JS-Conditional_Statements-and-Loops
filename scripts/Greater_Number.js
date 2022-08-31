@@ -1,4 +1,4 @@
-
+import {appendResults} from 'https://pagoulid.github.io/JS-Conditional_Statements-and-Loops/scripts/modules/modules.js';
 function greaterNum(){
     let fNumVal=document.getElementById('firstNum').value;
     let sNumVal=document.getElementById('secNum').value;
@@ -23,8 +23,8 @@ function compare(num1,num2){
 
         
     }
-
-    appendResults1(compareResult);
+    appendResults(result,"greater_number_result");
+    /*appendResults1(compareResult);*/
 }
 
 function appendResults1(result){

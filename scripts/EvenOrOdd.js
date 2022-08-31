@@ -1,3 +1,4 @@
+import {appendResults} from 'https://pagoulid.github.io/JS-Conditional_Statements-and-Loops/scripts/modules/modules.js';
 function evenOrOdd(){
     let NumVal=document.getElementById('Num').value;
     switchCase(NumVal);
@@ -15,8 +16,8 @@ function switchCase(num){
             result=`${num} is even number.`;
             break;
     }
-
-    appendResults2(result)
+    appendResults(result,"even_or_odd_number_result");
+    /*appendResults2(result)*/
 
     
 }
