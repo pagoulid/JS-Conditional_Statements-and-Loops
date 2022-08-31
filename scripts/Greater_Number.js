@@ -1,4 +1,4 @@
-import {appendResults} from 'https://pagoulid.github.io/JS-Conditional_Statements-and-Loops/scripts/modules/modules.js';
+import {appendResults,switchCase} from 'https://pagoulid.github.io/JS-Conditional_Statements-and-Loops/scripts/modules/modules.js';
 document.getElementById('GButton').addEventListener('click',greaterNum);
 function greaterNum(){
     let fNumVal=document.getElementById('firstNum').value;
